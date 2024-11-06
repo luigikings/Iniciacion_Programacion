@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+
+	<contacto>
+		<nombre>Luis Angel</nombre>
+		<apellidos>Da Silva Veliz</apellidos>
+		<direccion>
+			<tipo>Plaza</tipo>
+			<nombre>dua Jota</nombre>
+			<numero>7</numero>
+			<cp>28523</cp>
+			<localidad>Rio do Janeiro</localidad>
+			<ciudad>Sao Paulo</ciudad>
+		</direccion>
+		<correo>luigidasilv@gmail.com</correo>
+		<telefonos>
+			<casa>96412255433</casa>
+			<movil>658127799</movil>
+			<trabajo>916700600</trabajo>
+		</telefonos>
+		<tipo_contacto>Muy Pana</tipo_contacto>
+	</contacto>
+
+	<contacto>
+		<nombre>Andrea Sabina</nombre>
+		<apellidos>Dal Nieto</apellidos>
+		<direccion>
+			<tipo>Avenida</tipo>
+			<nombre>del Monte y Culebra</nombre>
+			<numero>69</numero>
+			<cp>28523</cp>
+			<localidad>Valencia</localidad>
+			<ciudad>Valencia</ciudad>
+		</direccion>
+		<correo>AndreaSabina03@gmail.com</correo>
+		<telefonos>
+			<casa>96412255433</casa>
+			<movil>658127799</movil>
+			<trabajo>916700600</trabajo>
+		</telefonos>
+		<tipo_contacto>Pana</tipo_contacto>
+	</contacto>
+
+	<contacto>
+		<nombre>David</nombre>
+		<apellidos>Martinez</apellidos>
+		<direccion>
+			<tipo>Plaza</tipo>
+			<nombre>Pico y Pala</nombre>
+			<numero>7</numero>
+			<cp>28523</cp>
+			<localidad>Zaragoza</localidad>
+			<ciudad>Zaragoza</ciudad>
+		</direccion>
+		<correo>luigidasilv@gmail.com</correo>
+		<telefonos>
+			<casa>96412255433</casa>
+			<movil>658127799</movil>
+			<trabajo>916700600</trabajo>
+		</telefonos>
+		<tipo_contacto>Pana</tipo_contacto>
+	</contacto>
+
+</agenda>

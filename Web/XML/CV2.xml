@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<cv>
+		<datos_personales>
+			<nombre>Luis Angel Jose</nombre>
+			<apellidos>Da Silva Veliz</apellidos>
+			<telefono>658127799</telefono>
+			<correo>luigidasilv@gmail.com</correo>
+			<direccion>
+				<tipo>Plaza</tipo>
+				<nombre>dua Jota</nombre>
+				<numero>7</numero>
+				<cp>28523</cp>
+				<localidad>Rio do Janeiro</localidad>
+				<ciudad>Sao Paulo</ciudad>
+			</direccion>
+			<sobre_mi>Profesional Informatico con alta experiencia en distintos lenguajes de programación</sobre_mi>
+		</datos_personales>
+		<formacion_academica>
+			<estudio>
+				<fecha_inicio>Octubre 2015</fecha_inicio>
+				<fecha_final>Junio 2019</fecha_final>
+				<centro>Colegio Estudiantes Las Tablas</centro>
+				<nombre_estudio>ESO</nombre_estudio>
+			</estudio>
+			<estudio>
+				<fecha_inicio>Octubre 2018</fecha_inicio>
+				<fecha_final>Junio 2020</fecha_final>
+				<centro>Colegio Estudiantes Las Tablas</centro>
+				<nombre_estudio>Bachillerato</nombre_estudio>
+			</estudio>
+			<estudio>
+				<fecha_inicio>Octubre 2023</fecha_inicio>
+				<fecha_final>Actualidad</fecha_final>
+				<centro>Formacion Profesional CEAC</centro>
+				<nombre_estudio>DAM</nombre_estudio>
+			</estudio>
+		</formacion_academica>
+		<experiencia_laboral>
+			<trabajo>
+				<fecha_inicio>Agosto 2020</fecha_Inicio>
+				<fecha_final>Actualidad</fecha_final>
+				<nombre_empresa>Restaurante El Japo</nombre_empresa>
+				<cargo>Camarero</cargo>
+			</trabajo>
+		</experiencia_laboral>
+		<formacion_complementaria>
+
+		</formacion_complementaria>
+		<informatica>
+
+		</informatica>
+		<idiomas>
+
+		</idiomas>
+		<otros_datos>
+		</otros_datos>
+	</cv>

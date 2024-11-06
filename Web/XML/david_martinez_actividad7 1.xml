@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libroRecetas[
+	<!ELEMENT libroRecetas (receta+)>
+		<!ELEMENT receta (informacion, ingredientes, elaboracion)>
+			<!ATTLIST receta cod ID #REQUIRED>
+			<!ELEMENT informacion (nombre, tipo, tiempoPreparacion, dificultad, calorias)>
+				<!ELEMENT nombre (#PCDATA)>
+				<!ELEMENT tipo (#PCDATA)>
+				<!ELEMENT tiempoPreparacion (#PCDATA)>
+				<!ELEMENT dificultad (#PCDATA)>
+				<!ELEMENT calorias (#PCDATA)>
+			<!ELEMENT ingredientes (ingrediente+)>
+				<!ELEMENT ingrediente (#PCDATA)>
+				<!ATTLIST  ingrediente cantidad CDATA #REQUIRED unidad CDATA #REQUIRED>
+			<!ELEMENT elaboracion (paso+)>
+				<!ELEMENT paso (#PCDATA)>
+
+]>
+<libroRecetas>
+	<receta cod="001">
+		<informacion>
+			<nombre>tortilla de patatas</nombre>
+			<tipo>segundo</tipo>
+			<tiempoPreparacion>60 minutos</tiempoPreparacion>
+			<dificultad>media</dificultad>
+			<calorias></calorias>
+		</informacion>	
+		<ingredientes>
+			<ingrediente cantidad="600" unidad="gr">huevo</ingrediente>
+			<ingrediente cantidad="450" unidad="gr">patata</ingrediente>
+			<ingrediente cantidad="75" unidad="gr">cebolla</ingrediente>
+			<ingrediente cantidad="75" unidad="gr">calabacín</ingrediente>
+			<ingrediente cantidad="15" unidad="gr">sal</ingrediente>
+			<ingrediente cantidad="25" unidad="cl">aceite de oliva</ingrediente>
+		</ingredientes>
+		<elaboracion>
+			<paso>pelar y cortar la patata en laminas finas</paso>
+			<paso>batir el huevo con un toque de sal</paso>
+			<paso>poner a calentar el aceite y vertir las patatas laminadas</paso>
+			<paso>poner la cebolla o calabacin a calentar junto las patatas</paso>
+			<paso>retirar las patatas y mezclar con el huevo batido</paso>
+			<paso>dejar reposar 2 minutos y verter la mezcla en sarten caliente</paso>
+			<paso>dar forma a los bordes con una espatula</paso>
+			<paso>dar la vuelta con un plato / tapa de sarten</paso>
+			<paso>servir al gusto</paso>
+		</elaboracion>
+	</receta>
+	
+	<receta cod="002">
+		<informacion>
+			<nombre>Ensalada escarola</nombre>
+			<tipo>primero</tipo>
+			<tiempoPreparacion>10 minutos</tiempoPreparacion>
+			<dificultad>Baja</dificultad>
+			<calorias></calorias>
+		</informacion>	
+		<ingredientes>			
+			<ingrediente cantidad="350" unidad="gr">escarola</ingrediente>
+			<ingrediente cantidad="25" unidad="gr">ajo</ingrediente>
+			<ingrediente cantidad="100" unidad="gr">granada/manzana</ingrediente>
+			<ingrediente cantidad="2.5" unidad="cl">vinagre</ingrediente>
+			<ingrediente cantidad="1.25" unidad="cl">aceite</ingrediente>
+		</ingredientes>
+		<elaboracion>
+			<paso>lavar las verduras</paso>
+			<paso>mezclar los ingredientes en un bol </paso>
+			<paso>emplatar</paso>
+		</elaboracion>
+	</receta>
+</libroRecetas>
